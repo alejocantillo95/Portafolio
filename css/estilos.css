@@ -63,6 +63,12 @@ h1 strong
   background-position-x: right;
 }
 
+.proyect
+{
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+
 .proyect-details
 {
   width: 500px;
@@ -75,13 +81,13 @@ h1 strong
 
 .header
 {
-  background-color: #252850;
-  color: white;
+  background-color: white;
+  color: black;
 
 }
 
 .header a
 {
-  color: white;
+  color: black;
   text-decoration: none;
 }
