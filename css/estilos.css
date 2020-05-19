@@ -44,6 +44,7 @@ h1
   line-height: 1.5;
   letter-spacing: -0.5px;
   color: white;
+  margin: 100px 150px 70px 30px;
   /* text-transform: none;
   text-decoration: dashed; */
 }
@@ -67,6 +68,7 @@ h1 strong
 {
   border: 1px solid gray;
   border-radius: 10px;
+  margin-bottom: 15px;
 }
 
 .proyect-details
