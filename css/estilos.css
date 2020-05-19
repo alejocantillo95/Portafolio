@@ -6,10 +6,10 @@ valores */
 
 /* selector de etiqueta header - section - article - nav  */
 
-header
+/* header
 {
   background: pink;
-}
+} */
 
 /* selector descendente */
 /* body header div nav ol li a  */
@@ -19,3 +19,19 @@ header
 
 /* selector de id # */
 /* #portafolio */
+
+
+body
+{
+  font-family: 'Manjari', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+{
+  font-family: 'Sansita', sans-serif;
+}
