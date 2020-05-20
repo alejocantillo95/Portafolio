@@ -186,6 +186,57 @@ h2
   width: 500px;
 }
 
+.experience-list-title
+{
+  margin-left: 20px;
+}
+
+.experience-list
+{
+  display: flex;
+}
+
+.experience
+{
+  margin: 10px;
+  width: 480px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #f4fbff;
+}
+
+.experience img
+{
+  width: 475px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.experience-details
+{
+  margin: 20px 40px;
+  margin-top: -40px;
+  background: white;
+  position: relative;
+  padding: 20px;
+  text-align: center;
+}
+
+.experience-description
+{
+  text-align: left;
+}
+
+.experience-url
+{
+  color: #026fff;
+  border: 1px solid ;
+  padding: 5px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
 .footer
 {
   background-color: #2c2f33;
