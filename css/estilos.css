@@ -103,7 +103,17 @@ h1
 
 h1 strong
 {
-  color: #99c84a;
+  color: #026fff;
+}
+
+h2
+{
+  color: #026fff;
+  text-transform: uppercase;
+  font-family: 'Manjari', sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 40px;
 }
 
 .hero
@@ -121,16 +131,49 @@ h1 strong
 .portfolio
 {
   background: #fafafafa;
+  padding: 20px;
 }
 
 .proyect
 {
   border: 1px solid gray;
   border-radius: 10px;
-  margin: 10px;
+  /* margin: 10px; */
   margin-bottom: 15px;
   padding: 20px;
   background: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.proyect-course,
+.proyect-date,
+.proyect-url
+{
+  margin: 10px 0;
+}
+
+.proyect-description
+{
+  font-size: 20px;
+}
+
+.proyect strong
+{
+  font-family: 'Sansita', sans-serif;
+}
+
+/* .proyect-date
+{
+  margin: 10px 0;
+} */
+
+.proyect-title
+{
+  font-size: 30px;
+  margin-top: 0;
+  margin-bottom: 10px;
 }
 
 .proyect-details
